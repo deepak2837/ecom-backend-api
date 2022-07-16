@@ -1,6 +1,6 @@
 # ecom-backend-api
 ### This project is live 
-### [see it live] www.ecom-backend-api.herokuapp.com 
+### [see it live] www.ecom-backend-apis.herokuapp.com 
 
 
 
