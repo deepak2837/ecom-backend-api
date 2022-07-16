@@ -38,7 +38,7 @@ app.get('/', function (req, res) {
 
    
 
-        res.send("all api's are working");
+        res.send("please refer readme of this project for the list of apis");
 
     });
 
