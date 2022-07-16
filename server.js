@@ -34,8 +34,6 @@ app.use(bodyParser.json());
 
 
 
-path setup 
-
 app.get('/', function (req, res) {
 
    
