@@ -23,12 +23,7 @@ const Role = db.role
 
 
 Category.hasMany(Product);
-const cors=require("cors");
-const corsOptions ={
-   origin:'*', 
-   credentials:true,            //access-control-allow-credentials:true
-   optionSuccessStatus:200,
-}
+
 
 app.use(cors(corsOptions))
 // middle wares 
