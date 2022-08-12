@@ -25,7 +25,7 @@ const Role = db.role
 Category.hasMany(Product);
 
 
-app.use(cors(corsOptions))
+
 // middle wares 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
