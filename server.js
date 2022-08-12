@@ -22,7 +22,7 @@ const Role = db.role
 // const user = db.user
 
 
-Category.hasMany(Product),
+Category.hasMany(Product);
 const cors=require("cors");
 const corsOptions ={
    origin:'*', 
