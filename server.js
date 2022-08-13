@@ -7,6 +7,7 @@ const bodyParser = require("body-parser")
 const serverconfig = require("./config/server.config.js")
 const db = require("./models")
 const { role } = require("./models")
+const cors = require("cors")
 
 
 
@@ -29,6 +30,7 @@ Category.hasMany(Product);
 // middle wares 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
+app.use(cors());
 
 
 
