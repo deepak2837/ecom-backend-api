@@ -22,9 +22,9 @@ module.exports = {
     },
     production: {
         HOST: "sql6.freesqldatabase.com",
-        USER: "sql6513999",
-        PASSWORD: "8rIQalrDD4",
-        DB: "sql6513999",
+        USER: "sql12659431",
+        PASSWORD: "qRmnXACbn9",
+        DB: "sql12659431",
         dialect: "mysql"
     }
 }
