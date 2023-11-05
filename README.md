@@ -1,6 +1,6 @@
 # ecom-backend-api
-### This project is live 
-### [see it live] http://ecom-backend-apis.herokuapp.com 
+### Backend of this this project is live
+### [see it live] <h1>(https://ecom-backend-api-woes.onrender.com)</h1>
 
 ## Do test these apis using postman
 
@@ -10,7 +10,28 @@
 
 # Ecom:
 
-## 1. Product:
+## 1. Auth:
+         a) Sign in :
+            ▪ Sign in requestion by the user(get)
+               http://127.0.0.1:8000/ecom/api/v1/auth/signin
+                Bodyraw (json):
+                {
+        	     "username": "deepak",
+         	     "password": "deepu"
+                 }
+                  
+         b) Sign up(post) :
+            ▪ sign up request(post) 
+              http://127.0.0.1:8000/ecom/api/v1/auth/signup
+                Bodyraw (json):
+                {
+                  "username": "deepak1111",
+                  "password": "deepu",
+                  "email": "deefu1v1jjh14e1gfh1@gmrail.com",
+                  "roles": ["admin"]
+                     }
+
+## 2. Product:
      
        a) Get request:
             ▪ request to fetch a specfic product by its id
@@ -73,7 +94,7 @@
               http://127.0.1:8000/ecom/api/v1/categories/2/products/
 
 
-## 2. Categories :
+## 3. Categories :
          a) Get request:
             ▪ request to fetch a specfic categories by its id
               http://127.0.1:8000/ecom/api/v1/categories/1
@@ -113,26 +134,7 @@
               http://127.0.1:8000/ecom/api/v1/categories/3
 
               
-## 3. Auth:
-         a) Sign in :
-            ▪ Sign in requestion by the user(get)
-               http://127.0.0.1:8000/ecom/api/v1/auth/signin
-                Bodyraw (json):
-                {
-        	     "username": "deepak",
-         	     "password": "deepu"
-                 }
-                  
-         b) Sign up(post) :
-            ▪ sign up request(post) 
-              http://127.0.0.1:8000/ecom/api/v1/auth/signup
-                Bodyraw (json):
-                {
-                  "username": "deepak1111",
-                  "password": "deepu",
-                  "email": "deefu1v1jjh14e1gfh1@gmrail.com",
-                  "roles": ["admin"]
-                     }
+
 ## 4. Cart:
          a) Get request:
             ▪ request to fetch all the things of cart
