@@ -2,6 +2,8 @@
 ### This project is live 
 ### [see it live] http://ecom-backend-apis.herokuapp.com 
 
+## Do test these apis using postman
+
 
 
 #### **allmost all requests are authrised by token: Request Headers => x-access-token : "ur-token-value-recieved-while-sign-in"
