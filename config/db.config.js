@@ -21,7 +21,7 @@ module.exports = {
     dialect:"mysql"
     },
     production: {
-        HOST: "sql6.freesqldatabase.com",
+        HOST: "sql12.freesqldatabase.com",
         USER: "sql12659431",
         PASSWORD: "qRmnXACbn9",
         DB: "sql12659431",
